@@ -6,6 +6,8 @@
 
 The goal of TDPMI is for time-dependent progression-related gene set enrichment analysis of myocardial infarction base on msigdbr, dplyr, stringr, ggplot2, enrichplot, clusterProfiler package. 
 
+The **mfuzz** package was used to cluster all the genes of each cell subgroup in myocardial infarction according to the time trend, thereby obtaining different gene modules and organizing them into a gene set annotation database. Subsequently, each gene module in the annotation database was enriched using specific drug targets
+
 **You can enter a list of genes for time-dependent progression-related gene set enrichment analysis of myocardial infarction.**
 
 
@@ -34,27 +36,27 @@ result=TDPMIenrich(genes=c("Aqp1","Cxcl3","Gm26870","Hba-a1","Hba-a2","Hbb-bs","
                                   typefigure="bubble")
 ```
 
-
-![image]("man/Rplot.png")
-
-
-
+<img src="https://github.com/mumdark/TDPMI/blob/main/man/Rplot.png#pic_center" height="400" ></img>
 
 ## Arguments
 
-genes: a vector of a list of genes
+**genes**: a vector of a list of genes
 
-pvalueFilter: pvalue filter for enrichment
+**pvalueFilter**: pvalue filter for enrichment
 
-qvalueFilter: qvalue filter for enrichment
+**qvalueFilter**: qvalue filter for enrichment
 
-highcol: color for high statistical significance
+**highcol**: color for high statistical significance
 
-lowcol: color for low statistical significance
+**lowcol**: color for low statistical significance
 
-useFilter: Whether to filter the results based on the pvalue and qvalue
+**useFilter**: Whether to filter the results based on the pvalue and qvalue
 
-typefigure: The type of the output figure, including "barplot", "bubble" and "all"
+**typefigure**: The type of the output figure, including "barplot", "bubble" and "all"
 
-organism: the organism of input genes (using "hsa" or "mmu")
+**organism**: the organism of input genes (using "hsa" or "mmu")
+
+## Citation
+
+> Defu Liu (2022). *For time-dependent progression-related gene set enrichment analysis of myocardial infarction.*  https://github.com/mumdark/TDPMI
 
