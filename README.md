@@ -26,7 +26,7 @@ You can use the code below to execute the example:
 
 ``` r
 library("TDPMI")
-result=TDPMIenrich(genes=c("Aqp1","Cxcl3","Gm26870","Hba-a1","Hba-a2","Hbb-bs","Hbb-bt","Mb","mt-Atp6","mt-Atp8","mt-Co1","mt-Co2"),
+result <- TDPMIenrich(genes=c("Aqp1","Cxcl3","Gm26870","Hba-a1","Hba-a2","Hbb-bs","Hbb-bt","Mb","mt-Atp6","mt-Atp8","mt-Co1","mt-Co2"),
                                   organism = "mmu",
                                   useFilter="TRUE",
                                   pvalueFilter=0.05,
