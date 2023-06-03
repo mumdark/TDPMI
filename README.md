@@ -6,7 +6,7 @@
 
 The goal of TDPMI is for time-dependent progression-related gene set enrichment analysis of myocardial infarction base on msigdbr, dplyr, stringr, ggplot2, enrichplot, clusterProfiler package. 
 
-The **mfuzz** package was used to cluster all the genes of each cell subgroup in myocardial infarction according to the time trend, thereby obtaining different gene modules and organizing them into a gene set annotation database. Subsequently, each gene module in the annotation database was enriched using specific drug targets
+The **mfuzz** package was used to cluster all the genes of each cell subgroup in myocardial infarction according to the time trend, thereby obtaining different gene modules and organizing them into a gene set annotation database. Subsequently, each gene module in the annotation database was enriched using specific gene list.
 
 **You can enter a list of genes for time-dependent progression-related gene set enrichment analysis of myocardial infarction.**
 
