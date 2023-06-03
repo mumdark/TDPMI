@@ -58,5 +58,5 @@ result <- TDPMIenrich(genes=c("Aqp1","Cxcl3","Gm26870","Hba-a1","Hba-a2","Hbb-bs
 
 ## Citation
 
-> Defu Liu (2022). *For time-dependent progression-related gene set enrichment analysis of myocardial infarction.*  https://github.com/mumdark/TDPMI
+> Defu Liu (2023). *For time-dependent progression-related gene set enrichment analysis of myocardial infarction.*  https://github.com/mumdark/TDPMI
 
